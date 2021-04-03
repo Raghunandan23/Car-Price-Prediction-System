@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Predictions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Price Prediction</h1>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="car_model">Model :</label>
+                    <input type="text" class="form-control" name="car_model" id="car_model">
+                </div>
+                <div class="form-group">
+                    <label for="car_year">Year :</label>
+                    <input type="text" class="form-control" name="car_year" id="car_year">
+                </div>
+                <div class="form-group">
+                    <label for="car_transmission">Transmission :</label>
+                    <input type="text" class="form-control" name="car_transmission" id="car_transmission">
+                </div>
+                <div class="form-group">
+                    <label for="car_kms">KMS Driven :</label>
+                    <input type="text" class="form-control" name="car_kms" id="car_kms">
+                </div>
+                <div class="form-group">
+                    <label for="car_fueltype">FuelType :</label>
+                    <input type="text" class="form-control" name="car_fueltype" id="car_fueltype">
+                </div>
+                <div class="form-group">
+                    <label for="car_tax">Tax :</label>
+                    <input type="text" class="form-control" name="car_tax" id="car_tax">
+                </div>
+                <div class="form-group">
+                    <label for="car_mpg">MPG :</label>
+                    <input type="text" class="form-control" name="car_mpg" id="car_mpg">
+                </div>
+                <div class="form-group">
+                    <label for="car_enginesize">Engine Size :</label>
+                    <input type="text" class="form-control" name="car_enginesize" id="car_enginesize">
+                </div>
+                <button type="submit" name="predict" class="btn btn-primary">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
